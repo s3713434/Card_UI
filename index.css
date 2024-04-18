@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(64, 64, 64);
+}
+
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+.container {
+  justify-content: center;
+}
+
+.title {
+  justify-content: center;
+  color: bisque;
+}
+
+.card {
+  padding: 15px;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 350px;
+  background: linear-gradient(298deg, rgb(2, 0, 36) 0%, rgb(0, 212, 255) 25%, rgb(92, 9, 121) 100%), url(https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+.card .card_text {
+  padding: 30px;
+}
+.card .card_text .card_info {
+  margin: 10px 0;
+}
+.card .card_text .card_info button {
+  margin: 10px 0px;
+  min-width: 200px;
+  min-height: 40px;
+  border-radius: 5px;
+  border-color: #fff;
+  border-style: groove;
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+}
+.card .card_text .card_info button:hover {
+  box-shadow: rgba(255, 255, 255, 0.329) 0px 6px 24px 0px, rgba(255, 255, 255, 0.486) 0px 0px 0px 3px;
+}
+.card:nth-child(2) {
+  background: linear-gradient(298deg, rgb(2, 0, 36) 0%, rgb(0, 212, 255) 35%, rgb(19, 194, 177) 100%), url(https://images.unsplash.com/photo-1535957998253-26ae1ef29506?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}/*# sourceMappingURL=index.css.map */
